@@ -1,47 +1,174 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
+import Icon from '@mui/material/Icon';
+import Stack from '@mui/material/Stack';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import Avatar from '@mui/material/Avatar';
 import Divider from '@mui/material/Divider';
+import Button from '@mui/material/Button';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
+import { useState } from 'react'; 
 
 export default function CustomAboutUs({ open, onClose }) {
-
-    const AboutUsContent = (
-
+  const [tabValue, setTabValue] = React.useState(0);  
+  const handleTabChange = (event, newValue) => {
+    setTabValue(newValue);
+  };
+  const AboutUsContent = (
     <Box
-      sx={{ width: '100%', p: 3, textAlign: 'center' }}
-      role="presentation"
-      onClick={onClose}
-      onKeyDown={onClose}
+      component="section"
+      sx={{
+        py: { xs: 4, md: 8 },
+        background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)',
+        minHeight: { xs: '60vh', md: '50vh' },
+      }}
     >
-      <Typography variant="h5" sx={{ mb: 2, fontWeight: 'bold', color: '#1976d2' }}>
-        About Us
-      </Typography>
-      <Typography variant="body1" sx={{ mb: 2 }}>
-        Welcome to Mandke's Art Gallery! We are passionate about showcasing exquisite artworks from talented artists around the world. Our mission is to provide a platform for art enthusiasts to explore, appreciate, and acquire unique pieces that inspire and captivate.
-      </Typography>
-      <Typography variant="body1" sx={{ mb: 2 }}>
-        At Mandke's Art Gallery, we believe that art has the power to transform spaces and evoke emotions. Our curated collection features a diverse range of styles, mediums, and themes, ensuring that there is something for every art lover.
-      </Typography>
-      <Typography variant="body1" sx={{ mb: 2 }}>
-        Whether you are a seasoned collector or a first-time buyer, our knowledgeable team is here to assist you in finding the perfect artwork that resonates with your personal taste and aesthetic.
-      </Typography>
-      <Typography variant="body1" sx={{ mb: 2 }}>
-        Thank you for visiting Mandke's Art Gallery. We invite you to explore our collection and discover the beauty and creativity that art brings to life.
-      </Typography>
-      <Divider sx={{ my: 3 }} />
-      </Box>
-    );
- 
-    return (
+      <Container maxWidth="md">
+        <Card
+          elevation={6}
+          sx={{
+            borderRadius: 4,
+            overflow: 'visible',
+            background: 'rgba(255,255,255,0.95)',
+            boxShadow: 6,
+          }}
+        >
+          <CardContent>
+            <Tabs
+              value={tabValue}
+              onChange={handleTabChange}
+              indicatorColor="info"
+              variant="fullWidth"
+              sx={{ mb: 4 }}
+            >
+              <Tab label="Our Story" />
+              <Tab label="Our Mission" />
+              <Tab label="Our Values" />  
+
+            </Tabs>
+            {tabValue === 0 && (
+            <Grid container spacing={4} alignItems="center">
+              <Grid item xs={12} md={5}>
+                <Typography variant="h3" fontWeight={700} gutterBottom>
+                  About Our Gallery
+                </Typography>
+                <Typography variant="body1" color="text.secondary" mb={3}>
+                  At ArtGallery, we believe every piece tells a story. Our journey has been filled with challenges and triumphs, shaping us into a community that values creativity, trust, and resilience.
+                </Typography>
+                <Button
+                  variant="contained"
+                  color="info"
+                  endIcon={<Icon>arrow_forward</Icon>}
+                  sx={{ borderRadius: 2, textTransform: 'none', fontWeight: 600 }}
+                  href="#"
+                >
+                  Learn More
+                </Button>
+              </Grid>
+              <Grid item xs={12} md={7}>
+                <Stack spacing={3}>
+                  <Box display="flex" alignItems="flex-start">
+                    <Avatar
+                      sx={{
+                        bgcolor: 'info.main',
+                        width: 56,
+                        height: 56,
+                        boxShadow: 3,
+                        mr: 2,
+                      }}
+                    >
+                      <Icon fontSize="medium">mediation</Icon>
+                    </Avatar>
+                    <Box>
+                      <Typography variant="subtitle1" fontWeight={600}>
+                        Growth Through Adversity
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        Life’s challenges shape our character and deepen our appreciation for art and connection.
+                      </Typography>
+                    </Box>
+                  </Box>
+                  <Divider flexItem />
+                  <Box display="flex" alignItems="flex-start">
+                    <Avatar
+                      sx={{
+                        bgcolor: 'info.main',
+                        width: 56,
+                        height: 56,
+                        boxShadow: 3,
+                        mr: 2,
+                      }}
+                    >
+                      <Icon fontSize="medium">settings_overscan</Icon>
+                    </Avatar>
+                    <Box>
+                      <Typography variant="subtitle1" fontWeight={600}>
+                        Building Trust & Community
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        We foster a welcoming environment where artists and enthusiasts can connect and grow together.
+                      </Typography>
+                    </Box>
+                  </Box>
+                  <Divider flexItem />
+                  <Box display="flex" alignItems="flex-start">
+                    <Avatar
+                      sx={{
+                        bgcolor: 'info.main',
+                        width: 56,
+                        height: 56,
+                        boxShadow: 3,
+                        mr: 2,
+                      }}
+                    >
+                      <Icon fontSize="medium">token</Icon>
+                    </Avatar>
+                    <Box>
+                      <Typography variant="subtitle1" fontWeight={600}>
+                        Cherishing Every Moment
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        Art helps us remember, heal, and celebrate life’s journey—together.
+                      </Typography>
+                    </Box>
+                  </Box>
+                </Stack>
+              </Grid>
+            </Grid>
+            )}
+            {tabValue === 1 && (
+              <Typography variant="body1" color="text.secondary">
+                Our mission is to create a vibrant community where art enthusiasts and creators can connect, inspire, and grow together. We are dedicated to showcasing diverse artistic expressions and fostering an environment of creativity and collaboration.
+              </Typography>
+            )}
+            {tabValue === 2 && (
+              <Typography variant="body1" color="text.secondary">
+                We value creativity, inclusivity, and integrity. Our commitment is to support artists from all backgrounds and provide a platform that celebrates diversity in art. We believe in the power of art to transform lives and communities.
+              </Typography>
+            )}
+          </CardContent>
+        </Card>
+      </Container>
+    </Box>
+  );
+
+  return (
     <SwipeableDrawer
       anchor="bottom"
       open={open}
-      onClose={onClose} 
+      onClose={onClose}
       onOpen={() => {}}
-      >
+      PaperProps={{
+        sx: { borderTopLeftRadius: 24, borderTopRightRadius: 24, minHeight: { xs: '70vh', md: '60vh' } },
+      }}
+    >
       {AboutUsContent}
-      </SwipeableDrawer>
-    );
+    </SwipeableDrawer>
+  );
 }
