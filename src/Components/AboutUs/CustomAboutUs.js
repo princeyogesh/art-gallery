@@ -61,15 +61,6 @@ export default function CustomAboutUs({ open, onClose }) {
                 <Typography variant="body1" color="text.secondary" mb={3}>
                   At ArtGallery, we believe every piece tells a story. Our journey has been filled with challenges and triumphs, shaping us into a community that values creativity, trust, and resilience.
                 </Typography>
-                <Button
-                  variant="contained"
-                  color="info"
-                  endIcon={<Icon>arrow_forward</Icon>}
-                  sx={{ borderRadius: 2, textTransform: 'none', fontWeight: 600 }}
-                  href="#"
-                >
-                  Learn More
-                </Button>
               </Grid>
               <Grid item xs={12} md={7}>
                 <Stack spacing={3}>
