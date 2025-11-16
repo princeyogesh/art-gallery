@@ -1,6 +1,6 @@
 [
-  { "imagename": "painting1.png", "title": "Sunset Over Lake" },
-  { "imagename": "painting1.png", "title": "Abstract Dreams" },
-  { "imagename": "painting1.png", "title": "Portrait of Lady" },
-  { "imagename": "painting1.png", "title": "Starry Night" }
+  { "imagename": "painting1.jpg", "title": "Sunset Over Lake" },
+  { "imagename": "painting2.jpg", "title": "Abstract Dreams" },
+  { "imagename": "painting3.jpg", "title": "Portrait of Lady" },
+  { "imagename": "painting4.jpg", "title": "Starry Night" }
 ]
