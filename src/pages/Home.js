@@ -47,7 +47,7 @@ function Home() {
       </Typography>
       <Box sx={{ mb: 6 }}>
         <Slider {...sliderSettings}>
-          {paintings.map((painting, idx) => (
+          {paintings.slice(0,6).map((painting, idx) => (
             <Box key={idx} sx={{ px: { xs: 0, sm: 2 } }}>
               <Card sx={{ borderRadius: 4, boxShadow: 6 }}>
                 <CardMedia component="img" height={window.innerWidth < 600 ? 200 : 400} image={`https://raw.githubusercontent.com/princeyogesh/art-gallery/master/public/${painting.imagename}`} alt={painting.title} />
@@ -64,7 +64,7 @@ function Home() {
         Explore More Artworks
       </Typography>
       <Grid container spacing={2}>
-        {paintings.map((painting, idx) => (
+        {paintings.slice(7,21).map((painting, idx) => (
           <Grid item xs={12} sm={6} md={3} key={idx}>
             <Card sx={{ borderRadius: 3, boxShadow: 3 }}>
               <CardMedia component="img" height={window.innerWidth < 600 ? 120 : 200} image={`https://raw.githubusercontent.com/princeyogesh/art-gallery/master/public/${painting.imagename}`} alt={painting.title} />
