@@ -1,6 +1,230 @@
 [
-  { "imagename": "painting1.png", "title": "Sunset Over Lake" },
-  { "imagename": "painting1.png", "title": "Abstract Dreams" },
-  { "imagename": "painting1.png", "title": "Portrait of Lady" },
-  { "imagename": "painting1.png", "title": "Starry Night" }
+  {
+    "imagename": "JPEG/Jpeg/_MG_0517.jpg",
+    "title": " MG 0517"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0520.jpg",
+    "title": " MG 0520"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0523.jpg",
+    "title": " MG 0523"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0526.jpg",
+    "title": " MG 0526"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0528.jpg",
+    "title": " MG 0528"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0530.jpg",
+    "title": " MG 0530"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0532.jpg",
+    "title": " MG 0532"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0535.jpg",
+    "title": " MG 0535"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0536.jpg",
+    "title": " MG 0536"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0537.jpg",
+    "title": " MG 0537"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0540.jpg",
+    "title": " MG 0540"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0541.jpg",
+    "title": " MG 0541"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0544.jpg",
+    "title": " MG 0544"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0545.jpg",
+    "title": " MG 0545"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0548.jpg",
+    "title": " MG 0548"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0549.jpg",
+    "title": " MG 0549"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0551.jpg",
+    "title": " MG 0551"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0554.jpg",
+    "title": " MG 0554"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0555.jpg",
+    "title": " MG 0555"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0558.jpg",
+    "title": " MG 0558"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0559.jpg",
+    "title": " MG 0559"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0562.jpg",
+    "title": " MG 0562"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0563.jpg",
+    "title": " MG 0563"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0566.jpg",
+    "title": " MG 0566"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0567.jpg",
+    "title": " MG 0567"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0570.jpg",
+    "title": " MG 0570"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0571.jpg",
+    "title": " MG 0571"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0574.jpg",
+    "title": " MG 0574"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0575.jpg",
+    "title": " MG 0575"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0578.jpg",
+    "title": " MG 0578"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0579.jpg",
+    "title": " MG 0579"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0582.jpg",
+    "title": " MG 0582"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0583.jpg",
+    "title": " MG 0583"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0586.jpg",
+    "title": " MG 0586"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0588.jpg",
+    "title": " MG 0588"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0590.jpg",
+    "title": " MG 0590"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0591.jpg",
+    "title": " MG 0591"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0594.jpg",
+    "title": " MG 0594"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0595.jpg",
+    "title": " MG 0595"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0597.jpg",
+    "title": " MG 0597"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0599.jpg",
+    "title": " MG 0599"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0602.jpg",
+    "title": " MG 0602"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0603.jpg",
+    "title": " MG 0603"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0604.jpg",
+    "title": " MG 0604"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0607.jpg",
+    "title": " MG 0607"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0608.jpg",
+    "title": " MG 0608"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0611.jpg",
+    "title": " MG 0611"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0613.jpg",
+    "title": " MG 0613"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0614.jpg",
+    "title": " MG 0614"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0616.jpg",
+    "title": " MG 0616"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0619.jpg",
+    "title": " MG 0619"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0621.jpg",
+    "title": " MG 0621"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0622.jpg",
+    "title": " MG 0622"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0625.jpg",
+    "title": " MG 0625"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0626.jpg",
+    "title": " MG 0626"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0629.jpg",
+    "title": " MG 0629"
+  },
+  {
+    "imagename": "JPEG/Jpeg/_MG_0630.jpg",
+    "title": " MG 0630"
+  }
 ]
